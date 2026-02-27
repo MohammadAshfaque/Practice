@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Gilroy';
+  font-family: 'arial-sens';
 }
 
 html, body {
@@ -62,4 +62,39 @@ html, body {
     height: calc(100% - 120px);
     width: 100%;
     /* background-color: crimson; */
+    padding-top: 90px;
+}
+#content h3{
+    background-color: #F2B0EA;
+    padding: 12px 16px;
+    width: fit-content;
+    border-radius: 50px;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 17px;
+}
+#content h1{
+    font-size: 80px;
+  text-align: center;
+  margin: 25px 0;
+  line-height: 80px;
+}
+#content h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+#content button{
+     padding: 20px 28px;
+    font-weight: 600;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin: 30px 0px;
+    font-size: 18px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
