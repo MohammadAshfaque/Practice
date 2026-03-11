@@ -4,3 +4,10 @@ btn.addEventListener("click", function(){
      btn.style.backgroundColor= "yellow";
      btn.style.color= "blue";
 })
+btn.addEventListener("mouseover", function(){
+     btn.style.backgroundColor = "red";
+})
+
+btn.addEventListener("mouseout", function(){
+     btn.style.backgroundColor = "yellow";
+})
