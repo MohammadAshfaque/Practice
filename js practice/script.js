@@ -12,3 +12,6 @@ btn.addEventListener("mouseout", function(){
      btn.style.backgroundColor = "yellow";
      btn.style.color="black";
 })
+btn.addEventListener("dblclick", function(){
+    btn.textContent = "Double Clicked!";
+});
