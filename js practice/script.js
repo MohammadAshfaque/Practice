@@ -15,3 +15,6 @@ btn.addEventListener("mouseout", function(){
 btn.addEventListener("dblclick", function(){
     btn.textContent = "Double Clicked!";
 });
+document.addEventListener("keydown", function(){
+    console.log("Key pressed");
+});
