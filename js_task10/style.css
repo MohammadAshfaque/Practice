@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gilroy';
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#progress-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0%;
+    background: #ff00e6;
+    z-index: 999;
+}
+.content {
+  height: 2000px;
+  padding: 20px;
+}
