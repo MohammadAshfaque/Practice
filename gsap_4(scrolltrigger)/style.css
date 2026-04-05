@@ -38,6 +38,6 @@ html, body {
 #circle{
     height: 300px;
     width: 300px;
-    background:linear-gradient(rgb(209, 28, 28),rgb(224, 148, 72));
+    background:linear-gradient(rgb(224, 62, 62),rgb(122, 143, 240));
     border-radius: 50%;
 }
